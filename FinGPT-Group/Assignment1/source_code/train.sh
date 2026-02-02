@@ -8,9 +8,9 @@ ds \
     ### Adjust based on your setup
     --include localhost:0 \ 
     train_lora.py \
-    --run_name nasdaq-100-20231231-20241231 \ 
+    --run_name dow30-202305-202405 \ 
     --base_model llama2 \
-    --dataset fingpt-forecaster-nasdaq-100-20231231-20241231-1-4-06 \
+    --dataset dow30-202305-202405 \
     --max_length 4096 \
     --batch_size 1 \
     --gradient_accumulation_steps 16 \
